@@ -6,5 +6,7 @@
     "baseUrl": "..",
     "noEmit": true
   },
-  "include": ["."]
+  "include": [
+    "./"
+  ]
 }
