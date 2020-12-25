@@ -18,6 +18,13 @@
     "scripty": "^2.0.0"
   },
   "scripts": {
-    "greet": "scripty"
+    "greet": "scripty",
+    "build": "scripty",
+    "clean": "scripty",
+    "lint": "scripty",
+    "test": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
   }
 }
