@@ -24,19 +24,15 @@
     "scripty": "^2.0.0"
   },
   "scripts": {
-    "greet": "scripty",
     "build": "scripty",
     "clean": "scripty",
+    "greet": "scripty",
     "lint": "scripty",
+    "start": "scripty",
     "test": "scripty"
   },
   "scripty": {
     "path": "./scripts/workspace"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "volta": {
     "node": "14.15.3",

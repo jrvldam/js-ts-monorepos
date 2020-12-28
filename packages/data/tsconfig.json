@@ -6,5 +6,9 @@
     "outDir": "dist",
     "rootDir": "src"
   },
+  "baseUrl": ".",
+  "paths": {
+    "@shlack/types": "node_modules/@shlack/types/build/types-beta.d.ts"
+  },
   "include": ["src"]
 }
